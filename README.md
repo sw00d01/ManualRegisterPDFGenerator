@@ -13,6 +13,7 @@ Create PDF using following calls to the class library....
  <code>
  Byte[] withfooter = registerpdf.CreateFooter(bpdf, eventtitle.Trim(), "My Sub Title");
 </code>
+<br /><br />
 <code>
  return File(withfooter, "application/pdf", "register.pdf");
  </code>
